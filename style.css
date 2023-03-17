@@ -1,0 +1,26 @@
+*{
+}
+
+html{
+    background-color: rgba(155, 114, 180, 0.63);
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+}
+
+.nav-item {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 15px;
+    color: black;
+    text-align: center;
+}

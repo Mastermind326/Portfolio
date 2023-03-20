@@ -21,14 +21,33 @@ header {
     background-color: rgb(155, 114, 180);
 }
 
+.name{
+    padding: 10px;
+}
+
+.nav{
+    align-items: center;
+    padding: 16px;
+}
+
 .nav-item {
     display: inline-block;
     text-decoration: none;
     padding-left: 15px;
     color: black;
     text-align: center;
+    text-decoration: none;
 }
 
 article{
     margin-top: 70px;
+}
+
+.about-text{
+    width: 600px;
+    padding: 10px;
+}
+
+.pro-text{
+    padding: 10px;
 }

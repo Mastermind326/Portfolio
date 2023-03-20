@@ -6,6 +6,12 @@
 html{
     background-color: rgba(155, 114, 180, 0.63);
     color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content{
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 header {

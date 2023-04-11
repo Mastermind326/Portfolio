@@ -65,6 +65,10 @@ article{
     padding: 10px;
 }
 
+.paint{
+    display: none;
+}
+
 i{
     font-size: 50px;
     padding-left: 15px;

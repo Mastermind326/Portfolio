@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,9 +30,9 @@
         <section>
             <h2 id="projects" class="pro-text">Projects</h2>
             <ul>
-                <li id="dasamoto"><h3 class="pro-text">Dasamoto Arts and Crafts</h3><img src="./Images/Dasamoto.png" alt="Screenshot of paint shop site project" height="250px" width="350px" hidden="true" class="paint"><p class="pro-text" class="paint" hidden="true">My first project on codecademy, focused on HTML with some addition of inline CSS.</p></li>
-                <li id="tea"><h3 class="pro-text">Tea Cozy</h3><img src="./Images/Tea Cozy.png" alt="Screenshot of tea shop site project" height="250px" width="350px" hidden="true" class="tea"><p class="pro-text" hidden="true" class="tea">My first fully styled project focused on CSS and site layout.</p></li>
-                <li id="bike"><h3 class="pro-text">Bike Club</h3><img src="./Images/Bike Club.png" alt="Screenshot of biking club site project" height="250px" width="350px" hidden="true" class="bike"><p class="pro-text" hidden="true" class="bike">My first fully self designed project through codecademy. focused on cross media screen size transitions.</p></li>
+                <li ><h3 id="dasamoto" class="pro-text">Dasamoto Arts and Crafts</h3><img src="./Images/Dasamoto.png" alt="Screenshot of paint shop site project" height="250px" width="350px"  class="paint"><p class="pro-text paint" >My first project on codecademy, focused on HTML with some addition of inline CSS.</p></li>
+                <li ><h3 id="tea" class="pro-text">Tea Cozy</h3><img src="./Images/Tea Cozy.png" alt="Screenshot of tea shop site project" height="250px" width="350px" hidden="true" class="tea"><p class="pro-text tea" hidden="true">My first fully styled project focused on CSS and site layout.</p></li>
+                <li ><h3 id="bike" class="pro-text">Bike Club</h3><img src="./Images/Bike Club.png" alt="Screenshot of biking club site project" height="250px" width="350px" hidden="true" class="bike"><p class="pro-text bike" hidden="true">My first fully self designed project through codecademy. focused on cross media screen size transitions.</p></li>
             </ul>
         </section>
         <h2 id="skills">Skills</h2>
@@ -43,6 +43,9 @@
             <i class="fa fa-github" aria-hidden="false"></i>
         </div>
     </div>
-        <script src="script.js" async defer></script>
+        <script src="./script.js" async defer>
+            const body = document.body;
+            console.log(body.style);
+        </script>
     </body>
 </html>

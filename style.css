@@ -7,6 +7,8 @@ html{
     background-color: rgba(155, 114, 180, 0.63);
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 .content{
@@ -81,4 +83,21 @@ i{
     font-size: 50px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contact li{
+    list-style: none;
+}
+
+footer{
+    position: static;
+    bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
